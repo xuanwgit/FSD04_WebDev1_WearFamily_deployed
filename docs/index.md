@@ -1,4 +1,6 @@
-# WearFamily Documentation
+# WearFamily
+
+An e-commerce platform for family matching outfits
 
 ## About the Application
 
@@ -9,9 +11,19 @@ WearFamily is a modern e-commerce platform built with Laravel, designed to provi
 * User registration and authentication
 * Product browsing by categories (Sets, Swimsuits, Pajamas, Dresses)
 * Shopping cart functionality
-* Newsletter subscription
+* Order management
 * Responsive design for all devices
-* Social media integration (Instagram, Facebook, Pinterest)
+* Newsletter subscription
+* Social media integration
+
+### Admin Features
+
+* Product management
+* Category management
+* Order processing
+* User management
+* Newsletter management
+* Social media integration management
 
 ### Technical Features
 
@@ -22,29 +34,9 @@ WearFamily is a modern e-commerce platform built with Laravel, designed to provi
 * Bootstrap for responsive design
 * JavaScript for interactive features
 
-## Project Structure
+## Get Started
 
-```
-WearFamily/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   └── Middleware/
-│   ├── Models/
-│   └── Providers/
-├── config/
-├── database/
-│   └── migrations/
-├── public/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── resources/
-│   └── views/
-└── routes/
-```
-
-## Setup and Installation
+To run the application locally, clone the repository and follow these steps:
 
 1. **Prerequisites**
    * PHP 8.1 or higher
@@ -87,19 +79,31 @@ WearFamily/
    DB_PASSWORD=
    ```
 
-## Deployment
+## Live Demo
 
-The application is deployed on Render:
-* **Service Name**: FSD03_WebDev1_WearFamily_JSD-1
-* **Runtime**: Docker
-* **Region**: Oregon
-* **URL**: https://fsd03-webdev1-wearfamily-jsd-1.onrender.com/
+Visit our live website: [WearFamily](https://fsd03-webdev1-wearfamily-jsd-1.onrender.com/)
 
-### Deployment Process
-1. Push changes to the main branch
-2. Render automatically builds and deploys the application
-3. Database migrations run automatically
-4. Environment variables are configured in Render dashboard
+## Project Structure
+
+```
+WearFamily/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   └── Middleware/
+│   ├── Models/
+│   └── Providers/
+├── config/
+├── database/
+│   └── migrations/
+├── public/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── resources/
+│   └── views/
+└── routes/
+```
 
 ## Features in Detail
 
@@ -124,6 +128,20 @@ The application is deployed on Render:
 * Social media sharing
 * Social login options
 * Social media feed integration
+
+## Deployment
+
+The application is deployed on Render:
+* **Service Name**: FSD03_WebDev1_WearFamily_JSD-1
+* **Runtime**: Docker
+* **Region**: Oregon
+* **URL**: https://fsd03-webdev1-wearfamily-jsd-1.onrender.com/
+
+### Deployment Process
+1. Push changes to the main branch
+2. Render automatically builds and deploys the application
+3. Database migrations run automatically
+4. Environment variables are configured in Render dashboard
 
 ## Contributing
 
