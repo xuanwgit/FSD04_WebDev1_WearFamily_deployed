@@ -13,9 +13,10 @@
   </p>
 </div>
 
-<table class="features-table">
+<!-- Features Table: Use inline styles for even distribution -->
+<table class="features-table" style="width:100%; table-layout:fixed;">
   <tr>
-    <td>
+    <td style="width:33.33%; vertical-align:top;">
       <h3>User Features</h3>
       <ul>
         <li>User registration and authentication</li>
@@ -25,7 +26,7 @@
         <li>Responsive design for all devices</li>
       </ul>
     </td>
-    <td>
+    <td style="width:33.33%; vertical-align:top;">
       <h3>Admin Features</h3>
       <ul>
         <li>Product management</li>
@@ -35,7 +36,7 @@
         <li>Background customization</li>
       </ul>
     </td>
-    <td>
+    <td style="width:33.33%; vertical-align:top;">
       <h3>Technical Features</h3>
       <ul>
         <li>Laravel 8.x</li>
