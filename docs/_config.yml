@@ -1,6 +1,8 @@
 theme: jekyll-theme-minimal
 title: WearFamily Documentation
 description: Documentation for the WearFamily e-commerce platform
+baseurl: "/FSD04_WebDev1_WearFamily_deployed"
+url: "https://xuanwgit.github.io"
 show_downloads: true
 google_analytics: UA-XXXXXXXXX-X
 
