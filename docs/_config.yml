@@ -1,0 +1,19 @@
+theme: jekyll-theme-minimal
+title: WearFamily Documentation
+description: Documentation for the WearFamily e-commerce platform
+show_downloads: true
+google_analytics: UA-XXXXXXXXX-X
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore 
